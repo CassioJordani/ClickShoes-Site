@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clickshoes</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- Folha externa -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <!-- favicon -->
+    <link rel="icon" href="imagens/favicon.png">    
+</head>
+<!-- corpo da pagina (conteudo)-->
+<body>
+    <!-- cabecalho -->
+    <header>
+        <!-- barra de navegacao -->
+        <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
+            <div class="container">
+                <a href="index.html" class="navbar-brand"><img src="imagens/favicon.png" alt="" width="52"></a>
+                <a href="#home" class="marca-texto">Clickshoes</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                    <i class="fas fa-bars text-white">
+
+                    </i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="nav-principal">
+                    <ul class="navbar-nav ml-auto" id="menu-sanduiche">
+
+                        <li class="nav-item">
+                            <img src="imagens/lupa-logo.png" class="icon-nav">
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#recursos" class="nav-link">Categorias</a>
+                        </li>
+
+                        <li class="nav-item divisor">
+                        </li>
+
+                        <li class="nav-item">
+                            <img src="imagens/carrinho-de-compras.png" class="icon-nav">
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="carrinho.html" class="nav-link">Carrinho</a>
+                        </li>
+
+                        <li class="nav-item divisor">
+                        </li>
+
+                        <li class="nav-item">
+                            <img src="imagens/telefone.png" class="icon-nav">
+                        </li>
+
+                        
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Fale conosco</a>
+                        </li>
+
+                        <li class="nav-item divisor">
+                        </li>
+
+                        <li class="nav-item">
+                            <img src="imagens/logo-perfil.png" class="icon-nav">
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Seu nome</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- carosel-->
+    <section id="home" class="d-flex">
+        <div class="container align-self-center">
+            <div class="row">
+                <div class="col-md-12 capa">
+                    <div id="carousel-spotify" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="container-carrosel">
+                                    <img src="imagens/olympikus-jogging-branco.png" class="image-carosel">
+                                    </div>
+                                    <p class="texto-carousel">Tênis Olympikus Jogging</p>
+                                <a href="" class="btn btn-lg btn-custom btn-branco">
+                                    <i class='fas fa-arrow-right'>
+                                        Ver detalhes
+                                    </i>
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagens/bota-cano-baixo-modare.png" class="image-carosel">
+                                <p class="texto-carousel">Bota Cano Baixo Modare</p>
+                                <a href="" class="btn btn-lg btn-custom btn-branco">
+                                    <i class='fas fa-arrow-right'>
+                                        Ver detalhes
+                                    </i>
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagens/rasteira-moleca.png" class="image-carosel">
+                                <p class="texto-carousel">Sandália Rasteira Moleca</p>
+                                <a href="" class="btn btn-lg btn-custom btn-branco">
+                                    <i class='fas fa-arrow-right'>
+                                        Ver detalhes
+                                    </i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <!-- controle -->
+                        <a href="#carousel-spotify" class="carousel-control-prev" data-slide="prev">
+                            <i class="fas fa-angle-left fa-3x"></i>
+                        </a>
+
+                        <a href="#carousel-spotify" class="carousel-control-next" data-slide="next">
+                            <i class="fas fa-angle-right fa-3x"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- secao onde contem os produtos -->
+    <section id="servicos" class="caixa">
+        <div class="container">
+            <div class="row">
+                <section id="sapatenis-masculino"></section>
+                <div class="col-md-12">
+                    <h2>Sapatênis</h2>
+                    <div class="row albuns">
+                        <div class="col-md-3">
+                            <img src="imagens/sapatenis-pegada.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="imagens/sapatenis-confort.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="imagens/sapatenis-ferracini.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="imagens/sapatenis-democrata.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row albuns">
+                        <div class="col-md-3">
+                            <h3 class="nome-produto-font">Sapatenis Pegada - taupe</h3>
+                            <h4 class="preco-avista-font">R$ 99,99</h4>
+                            <h4 class="preco-parcela-font">5x de R$ 19,99</h4>
+                            <a href="" class="carosel-item btn btn-lg btn-custom btn-roxo">Adicionar</a>
+                        </div>
+                        <div class="col-md-3">
+                            <h3 class="nome-produto-font">Sapatenis Confort Way - preto</h3>
+                            <h4 class="preco-avista-font">R$ 99,99</h4>
+                            <h4 class="preco-parcela-font">5x de R$ 19,99</h4>
+                            <a href="" class="carosel-item btn btn-lg btn-custom btn-roxo">Adicionar</a>
+                        </div>
+                        <div class="col-md-3">
+                            <h3 class="nome-produto-font">Supra Ferracini - preto</h3>
+                            <h4 class="preco-avista-font">Descricao</h4>
+                            <h4 class="preco-parcela-font">5x de R$ 19,99</h4>
+                            <a href="" class="carosel-item btn btn-lg btn-custom btn-roxo">Adicionar</a>
+                        </div>
+                        <div class="col-md-3">
+                            <h3 class="nome-produto-font">Loop Democrata - marfim</h3>
+                            <h4 class="preco-avista-font">Descricao</h4>
+                            <h4 class="preco-parcela-font">5x de R$ 19,99</h4>
+                            <a href="" class="carosel-item btn btn-lg btn-custom btn-roxo">Adicionar</a>
+                        </div>
+                    </div>
+                </div>
+                <section id="tenis-masculino"></section>
+                <div class="col-md-12">
+                    <h2>Tênis</h2>
+                    <div class="row albuns">
+                        <div class="col-md-3">
+                            <img src="imagens/tenis-all-star.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="imagens/tenis-fila.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="imagens/tenis-mizuno.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="imagens/tenis-olympikus.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                        <div class="row albuns">
+                            <div class="col-md-3">
+                                <h3 class="nome-produto-font">Stoke Converse All Star - café</h3>
+                                <h4 class="preco-avista-font">R$ 149,99</h4>
+                                <h4 class="preco-parcela-font">7x de R$ 21,42</h4>
+                                <a href="" class="carosel-item btn btn-lg btn-custom btn-roxo">Adicionar</a>
+                            </div>
+                            <div class="col-md-3">
+                                <h3 class="nome-produto-font">Classic Runner Fila - preto/cinza</h3>
+                                <h4 class="preco-avista-font">R$ 299,99</h4>
+                                <h4 class="preco-parcela-font">10x de R$ 29,99</h4>
+                                <a href="" class="carosel-item btn btn-lg btn-custom btn-roxo">Adicionar</a>
+                            </div>
+                            <div class="col-md-3">
+                                <h3 class="nome-produto-font">Space 3 Mizuno - marinho</h3>
+                                <h4 class="preco-avista-font">R$ 329,99</h4>
+                                <h4 class="preco-parcela-font">10x de R$ 32,99</h4>
+                                <a href="" class="carosel-item btn btn-lg btn-custom btn-roxo">Adicionar</a>
+                            </div>
+                            <div class="col-md-3">
+                                <h3 class="nome-produto-font">Volcan Olympikus - preto</h3>
+                                <h4 class="preco-avista-font">R$ 189,99</h4>
+                                <h4 class="preco-parcela-font">9x de R$ 21,11</h4>
+                                <a href="" class="carosel-item btn btn-lg btn-custom btn-roxo">Adicionar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="recursos" class="caixa">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Categorias</h2>
+                    <h3>Moda Masculina</h3>
+                    <a href="#tenis-masculino" class="nav-link-categoria">Tênis</a>
+                    <a href="#" class="nav-link-categoria">Sapatos</a>
+                    <a href="#sapatenis-masculino" class="nav-link-categoria">Sapatenis</a>
+                    <a href="#" class="nav-link-categoria">Sandálias</a>
+                    <a href="#" class="nav-link-categoria">Chinelos</a>
+                    <a href="#" class="nav-link-categoria">Botas</a>
+                    
+                    <h3>Moda Feminina</h3>
+                    <a href="#" class="nav-link-categoria">Tênis</a>
+                    <a href="#" class="nav-link-categoria">Sapatos</a>
+                    <a href="#" class="nav-link-categoria">Sapatenis</a>
+                    <a href="#" class="nav-link-categoria">Sandálias</a>
+                    <a href="#" class="nav-link-categoria">Chinelos</a>
+                    <a href="#" class="nav-link-categoria">Botas</a>
+                </div>
+                <div class="col-md-8">
+                    <div class="row fotos">
+                        <div class="col-md-6">
+                            <img src="imagens/fototenis.jpg" class="img-fluid rotacionar-p borda-img"">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="imagens/imagemsalto.jpg" class="img-fluid rotacionar-p borda-img">
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </div>
+
+    </section>
+    <!-- rodape -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="imagens/favicon.png" width="60">
+                </div>
+                <div class="col-md-2">
+                    <h4>INSTITUCIONAL</h4>
+                    <ul class="navbar-nav">
+                        <li><a href="">Conheça a Clickshoes</a></li>
+                        <li><a href="">Nossas lojas</a></li>
+                        <li><a href="">Fale conosco</a></li>
+                        <li><a href="">Sobre</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4>AJUDA</h4>
+                    <ul class="navbar-nav">
+                        <li><a href="">Formas de pagamento</a></li>
+                        <li><a href="">Trocas e Devoluções</a></li>
+                        <li><a href="">Entregas</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4>CONTA</h4>
+                    <ul class="navbar-nav">
+                        <li><a href="">Minha conta</a></li>
+                        <li><a href="">Meus pedidos</a></li>
+                        <li><a href="">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul>
+                        <li><a href=""><img src="imagens/logo-do-facebook.png" alt="" class="logo-contato"></a></li>
+                        <li><a href=""><img src="imagens/logotipo-do-instagram.png" alt="" class="logo-contato"></a></li>
+                        <li><a href=""><img src="imagens/logotipo-do-whatsapp.png" alt="" class="logo-contato"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>

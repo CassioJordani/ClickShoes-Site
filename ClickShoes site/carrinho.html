@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clickshoes</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- Folha externa -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <!-- favicon -->
+    <link rel="icon" href="imagens/favicon.png">    
+</head>
+<!-- corpo da pagina (conteudo)-->
+<body>
+    <!-- cabecalho -->
+    <header>
+        <!-- barra de navegacao -->
+        <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
+            <div class="container">
+                <a href="index.html" class="navbar-brand"><img src="imagens/favicon.png" alt="" width="52"></a>
+                <a href="index.html" class="marca-texto">Clickshoes</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                    <i class="fas fa-bars text-white">
+
+                    </i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="nav-principal">
+                    <ul class="navbar-nav ml-auto" id="menu-sanduiche">
+
+                        <li class="nav-item">
+                            <img src="imagens/lupa-logo.png" class="icon-nav">
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#recursos" class="nav-link">Categorias</a>
+                        </li>
+
+                        <li class="nav-item divisor">
+                        </li>
+
+                        <li class="nav-item">
+                            <img src="imagens/carrinho-de-compras.png" class="icon-nav">
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="carrinho.html" class="nav-link">Carrinho</a>
+                        </li>
+
+                        <li class="nav-item divisor">
+                        </li>
+
+                        <li class="nav-item">
+                            <img src="imagens/telefone.png" class="icon-nav">
+                        </li>
+
+                        
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Fale conosco</a>
+                        </li>
+
+                        <li class="nav-item divisor">
+                        </li>
+
+                        <li class="nav-item">
+                            <img src="imagens/logo-perfil.png" class="icon-nav">
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Seu nome</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+</body>
+    <main class="container">
+        <section class="carrinho">
+            <div>
+                <h3>.</h3> 
+                <h3>.</h3> 
+            </div>
+            <h2>Itens no Carrinho</h2>
+            <ul>
+                <li>
+                    <img src="imagens/sapatenis-confort.png" alt="produto" class="foto-produto-carrinho">
+                    <div>
+                    <div class="info-produto">
+                        <h3>Sapatenis Confort Way - preto</h3>
+                        <p>Preço: R$ 99,99</p>
+                        <p>Quantidade: 2</p>
+                        <button class="remover btn btn-sm btn-custom btn-roxo">
+                            <i class="fas fa-trash"></i> Remover
+                        </button>
+                    </div>
+                </li>
+                <li>
+                    <img src="imagens/tenis-fila.png" alt="produto" class="foto-produto-carrinho">
+                    <div>
+                    <div class="info-produto">
+                        <h3>Classic Runner Fila - preto/cinza</h3>
+                        <p>Preço: R$ 299,99</p>
+                        <p>Quantidade: 1</p>
+                        <button class="remover btn btn-sm btn-custom btn-roxo">
+                            <i class="fas fa-trash"></i> Remover
+                        </button>
+                    </div>
+                </li>
+                <li>
+                    <img src="imagens/tenis-mizuno.png" alt="produto" class="foto-produto-carrinho">
+                    <div>
+                    <div class="info-produto">
+                        <h3>Space 3 Mizuno - marinho</h3>
+                        <p>Preço: R$ 329,99</p>
+                        <p>Quantidade: 1</p>
+                        <button class="remover btn btn-sm btn-custom btn-roxo">
+                            <i class="fas fa-trash"></i> Remover
+                        </button>
+                    </div>
+                </li>
+                <li>
+                    <img src="imagens/tenis-all-star.png" alt="produto" class="foto-produto-carrinho">
+                    <div>
+                    <div class="info-produto">
+                        <h3>Stoke Converse All Star - café</h3>
+                        <p>Preço: R$ 149,99</p>
+                        <p>Quantidade: 1</p>
+                        <button class="remover btn btn-sm btn-custom btn-roxo">
+                            <i class="fas fa-trash"></i> Remover
+                        </button>
+                    </div>
+                </li>
+                <!-- Adicione mais itens do carrinho aqui -->
+            </ul>
+        </section>
+        <section class="resumo">
+            <h2>Resumo do Pedido</h2>
+            <p>Total de Itens: 4</p>
+            <p>Total a Pagar: R$ 979,95</p>
+            <button class="finalizar-compra btn btn-lg btn-custom btn-roxo">Finalizar Compra</button>
+        </section>
+    </main>
+    <!-- rodape -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="imagens/favicon.png" width="60">
+                </div>
+                <div class="col-md-2">
+                    <h4>INSTITUCIONAL</h4>
+                    <ul class="navbar-nav">
+                        <li><a href="">Conheça a Clickshoes</a></li>
+                        <li><a href="">Nossas lojas</a></li>
+                        <li><a href="">Fale conosco</a></li>
+                        <li><a href="">Sobre</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4>AJUDA</h4>
+                    <ul class="navbar-nav">
+                        <li><a href="">Formas de pagamento</a></li>
+                        <li><a href="">Trocas e Devoluções</a></li>
+                        <li><a href="">Entregas</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4>CONTA</h4>
+                    <ul class="navbar-nav">
+                        <li><a href="">Minha conta</a></li>
+                        <li><a href="">Meus pedidos</a></li>
+                        <li><a href="">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul>
+                        <li><a href=""><img src="imagens/logo-do-facebook.png" alt="" class="logo-contato"></a></li>
+                        <li><a href=""><img src="imagens/logotipo-do-instagram.png" alt="" class="logo-contato"></a></li>
+                        <li><a href=""><img src="imagens/logotipo-do-whatsapp.png" alt="" class="logo-contato"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
